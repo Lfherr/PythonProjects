@@ -1,7 +1,9 @@
+"""Opens websites based on a url in a text file. Opens each website in a different tab.
+Text file destination is provided by user"""
+
+
 import webbrowser
 
-#Opens websites based on a url in a text file. Opens each website in a different tab.
-#Text file destination is given on commandline from batch file: TheUsualSites
 def file_len(file_name):
     len_count = 0
     use_file = open(file_name)
