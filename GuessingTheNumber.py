@@ -1,5 +1,11 @@
 import random
 
+"""Number guessing game.
+Batch file to run from command line: 
+@py.exe File Location"""
+
+
+
 print("Welcome to the Number Guessing Game!")
 print("Enter your name.")
 player_name = input("My name is ")
